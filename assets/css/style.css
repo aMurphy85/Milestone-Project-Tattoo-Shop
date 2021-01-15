@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&family=Swanky+and+Moo+Moo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&family=Swanky+and+Moo+Moo&display=swap');
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
@@ -41,13 +41,13 @@ body {
     border-bottom: 1px solid #000;
 }
 
-/*-------------------------------------------------------- Logo */
+/*-------------------------------------------------------- Hero image */
 
-.logo {
-    background: url(../images/logo.jpg);
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/main-image.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    
+    background-color: #f2f2f2;
 }
