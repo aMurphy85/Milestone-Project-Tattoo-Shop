@@ -2,16 +2,13 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
-}
-
-.uppercase {
     text-transform: uppercase;
 }
 
 /*-------------------------------------------------------- Navbar header */
 
 .navbar {
-    height: 75px;
+    min-height: 75px;
     background-color: #f2f2f2;
 }
 
@@ -19,7 +16,7 @@ body {
     letter-spacing: 1px;
     font-size: 200%;
     float: left;
-    color: #000;
+    color: #525252;
 }
 
 .nav-menu {
@@ -34,7 +31,17 @@ body {
 }
 
 .nav-menu a {
-    color: #000;
+    color: #525252;
+}
+
+.navbar a:hover {
+    color: #bd1a1a;
+    text-decoration: none;
+}
+
+.navbar h2:hover {
+    color: #bd1a1a;
+    text-decoration: none;
 }
 
 .active {
@@ -50,4 +57,79 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f2f2f2;
+}
+
+/*-------------------------------------------------------- Footer */
+
+footer {
+    background-color: #f2f2f2;
+    color: #525252;
+    min-height: 150px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 10px;
+}
+
+.contact-us {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15px;   
+}
+
+.contact-us a {
+    color: #525252;
+    
+}
+
+.contact-us a:hover {
+    color: #bd1a1a;
+    text-decoration: none;
+}
+
+.social {
+    text-align: center;  
+    padding-top: 40px; 
+}
+
+.social ul {
+    padding: 0;
+}
+
+.social i {
+    width: 100px;
+    height: 100px;
+    color: #525252;    
+    padding-top: 15px;
+    border-radius: 15%;
+    font-size: 50px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social i:hover {
+    color: #bd1a1a;
+}
+
+.opening-times {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.opening-times li {
+    list-style: none;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
