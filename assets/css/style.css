@@ -19,6 +19,12 @@ body {
     color: #525252;
 }
 
+.sub-title {
+    letter-spacing: 2px;
+    float: left;
+    color: #bd1a1a;
+}
+
 .nav-menu {
     font-size: 110%;
     list-style-type: none;
@@ -53,10 +59,57 @@ body {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/main-image.jpeg");
+    background: url("../images/main-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: #f2f2f2;
+}
+
+/*-------------------------------------------------------- About Us */
+
+.about-us {
+    margin: 0;
+    padding: 0;
+}
+
+.about-us img {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-info {
+    text-align: center;
+    padding: 25px;
+}
+
+/*-------------------------------------------------------- Recent work */
+
+.recent-work-heading {
+    text-align: center;
+}
+
+
+
+/*-------------------------------------------------------- Testemonials */
+
+.testemonials {
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #696766;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.comments {
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #696766;
+    margin-block-start: 0;
+    padding: 20px;
 }
 
 /*-------------------------------------------------------- Footer */
@@ -73,9 +126,8 @@ footer {
 }
 
 .contact-us {
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 15px;   
+    text-align: center;
+    padding-top: 5px;  
 }
 
 .contact-us a {
@@ -116,14 +168,17 @@ footer {
 }
 
 .opening-times {
-    text-align: right;
+    text-align: center;
     padding-top: 5px;
-    padding-right: 15px;
 }
 
 .opening-times li {
     list-style: none;
+    padding-right: 40px;
 }
+
+/*-------------------------------------------------------- Media Queries */
+
 
 @media(min-width: 992px) {
     .center-form {
