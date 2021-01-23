@@ -35,7 +35,7 @@ body {
 
 #sub-title {
     letter-spacing: 2px;
-    color: #bd1a1a;
+    color: #991f1f;
 }
 
 .navbar-nav {
@@ -49,7 +49,7 @@ body {
 
 .navbar-nav a:hover {
     text-decoration: none;
-    border-bottom: 1px solid #bd1a1a;
+    border-bottom: 2px solid #991f1f;
 }
 /*-------------------------------------------------------- Hero image */
 
@@ -69,7 +69,7 @@ body {
 
 .about-us-section {
     width: 100%;
-    background-color: #bd1a1a;
+    background-color: rgba(3, 3, 3, 0.705);
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -103,26 +103,33 @@ body {
 
 /*-------------------------------------------------------- Recent work */
 
+.recent-work {
+    text-align: center;
+    padding: 15px;
+}
+
 .recent-work-heading {
     text-align: center;
 }
 
-
+.d-inline img {
+    width: 300px;
+    height: 300px;
+}
 
 /*-------------------------------------------------------- Testemonials */
 
 .testemonials {
     text-align: center;
     color: #f2f2f2;
-    background-color: #696766;
+    background-color: #991f1f;
     margin: 0;
-    padding-top: 20px;
 }
 
 .comments {
     text-align: center;
     color: #f2f2f2;
-    background-color: #696766;
+    background-color: #991f1f;
     margin-block-start: 0;
     padding: 20px;
 }
@@ -206,11 +213,8 @@ footer {
     }
 }
 
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
+@media (max-width: 768px) {
+    .comment-3 {
+        display: none;
     }
 }
