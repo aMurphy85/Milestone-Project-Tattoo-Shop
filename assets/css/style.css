@@ -23,19 +23,25 @@ body {
 
 .navbar-brand {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     text-align: center;
+}
+
+button {
+    text-align: right;
 }
 
 #title {
     font-size: 200%;
     letter-spacing: 1px;
     color: #525252;
+    margin: 0;
 }
 
 #sub-title {
     letter-spacing: 2px;
     color: #991f1f;
+    margin: 0;
 }
 
 .navbar-nav {
@@ -200,6 +206,16 @@ footer {
 }
 
 /*-------------------------------------------------------- Media Queries */
+
+@media (max-width: 576px) {
+    #title {
+        font-size: 120%;
+    }
+
+    #sub-title {
+        font-size: 65%;
+    }
+}
 
 @media (max-width: 576px) {
     #hero-image {
