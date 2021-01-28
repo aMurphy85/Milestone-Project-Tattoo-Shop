@@ -71,10 +71,21 @@ button {
     background-color: #f2f2f2;
 }
 
+#gallery-hero-image {
+    height: 900px;
+    width: 100%;
+    margin: 0;
+    padding-top: 75px;
+    background: url("../images/gallery-hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f2f2f2;
+}
+
 /*-------------------------------------------------------- About Us */
 
 .about-us-section {
-    width: 100%;
     background-color: rgba(3, 3, 3, 0.705);
     text-align: center;
     margin: 0;
@@ -103,19 +114,17 @@ button {
     background-size: cover;
 }
 
-
-
-
-
 /*-------------------------------------------------------- Recent work */
 
 .recent-work {
+    background-color: #f2f2f2;
     text-align: center;
     padding: 15px;
 }
 
 .recent-work-heading {
     text-align: center;
+    color: #991f1f;
 }
 
 .d-inline img {
@@ -205,6 +214,85 @@ footer {
     padding-right: 40px;
 }
 
+/*-------------------------------------------------------- Gallery */
+
+.gallery-heading h1 {
+    font-family: 'Swanky and Moo Moo', sans-serif;
+    font-size: 400%;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.black-grey-heading {
+    background-color: #525252;
+    color: #f2f2f2;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.black-grey-work {
+    background-color: #525252;
+    padding: 30px;
+}
+
+.neo-trad-heading {
+    background-color: #f2f2f2;
+    color: #991f1f;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.neo-trad-work {
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.colour-heading {
+    background-color: #991f1f;
+    color: #f2f2f2;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.colour-work {
+    background-color: #991f1f;
+    padding: 30px;
+}
+/*-------------------------------------------------------- Contact Us Form */
+
+.contact-us-form {
+    text-align: center; 
+}
+
+.contact-us-heading {
+    background-color: #525252;
+}
+
+.contact-form {
+    background-color: #525252;
+    margin: 0;
+}
+
+/*-------------------------------------------------------- Contact Info */
+
+.contact-info {
+    background-color: #991f1f;
+}
+
+.photos {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*-------------------------------------------------------- Media Queries */
 
 @media (max-width: 576px) {
@@ -223,6 +311,12 @@ footer {
     }
 }
 
+@media (max-width: 576px) {
+    #gallery-hero-image {
+        height: 500px;
+    }
+}
+
 @media (max-width: 992px) {
     .shop-front img {
         display: none;
@@ -232,5 +326,12 @@ footer {
 @media (max-width: 768px) {
     .comment-3 {
         display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-inline img {
+        width: 150px;
+        height: 150px;
     }
 }
