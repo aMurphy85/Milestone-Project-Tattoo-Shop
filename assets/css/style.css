@@ -227,19 +227,22 @@ footer {
 }
 
 .black-grey-heading {
+    text-align: center;
     background-color: #525252;
-    color: #f2f2f2;
+    color: #f2f2f2;    
     margin: 0;
     padding-top: 15px;
     padding-left: 15px;
 }
 
 .black-grey-work {
+    text-align: center;
     background-color: #525252;
     padding: 30px;
 }
 
 .neo-trad-heading {
+    text-align: center;
     background-color: #f2f2f2;
     color: #991f1f;
     margin: 0;
@@ -248,11 +251,13 @@ footer {
 }
 
 .neo-trad-work {
+    text-align: center;
     background-color: #f2f2f2;
     padding: 30px;
 }
 
 .colour-heading {
+    text-align: center;
     background-color: #991f1f;
     color: #f2f2f2;
     margin: 0;
@@ -261,6 +266,7 @@ footer {
 }
 
 .colour-work {
+    text-align: center;
     background-color: #991f1f;
     padding: 30px;
 }
