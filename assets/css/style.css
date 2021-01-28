@@ -128,6 +128,7 @@ button {
 }
 
 .d-inline img {
+    padding: 3px;
     width: 300px;
     height: 300px;
 }
@@ -154,32 +155,17 @@ button {
 footer {
     background-color: #f2f2f2;
     color: #525252;
-    min-height: 150px;
+    min-height: 75px;
     margin: 0;
 }
 
-#footer-details {
-    padding: 10px;
-}
-
 .contact-us {
-    text-align: center;
-    padding-top: 5px;  
-}
-
-.contact-us a {
-    color: #525252;
-    
-}
-
-.contact-us a:hover {
-    color: #bd1a1a;
-    text-decoration: none;
+    font-size: 14px;
+    text-align: center;  
 }
 
 .social {
-    text-align: center;  
-    padding-top: 40px; 
+    text-align: center;
 }
 
 .social ul {
@@ -187,12 +173,11 @@ footer {
 }
 
 .social i {
-    width: 100px;
-    height: 100px;
-    color: #525252;    
-    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    color: #525252;
     border-radius: 15%;
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -210,6 +195,7 @@ footer {
 }
 
 .opening-times li {
+    font-size: 14px;
     list-style: none;
     padding-right: 40px;
 }
@@ -272,17 +258,16 @@ footer {
 }
 /*-------------------------------------------------------- Contact Us Form */
 
-.contact-us-form {
-    text-align: center; 
-}
-
 .contact-us-heading {
-    background-color: #525252;
+     text-align: center;
 }
 
 .contact-form {
-    background-color: #525252;
-    margin: 0;
+    padding: 0;
+}
+
+.contact form {
+    padding-left: 50px;
 }
 
 /*-------------------------------------------------------- Contact Info */
@@ -309,19 +294,27 @@ footer {
     #sub-title {
         font-size: 65%;
     }
-}
-
-@media (max-width: 576px) {
+    
     #hero-image {
         height: 500px;
     }
-}
-
-@media (max-width: 576px) {
+    
     #gallery-hero-image {
         height: 500px;
     }
+
+    .d-inline img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .comments p {
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
 }
+}
+
+
 
 @media (max-width: 992px) {
     .shop-front img {
@@ -332,12 +325,5 @@ footer {
 @media (max-width: 768px) {
     .comment-3 {
         display: none;
-    }
-}
-
-@media (max-width: 576px) {
-    .d-inline img {
-        width: 150px;
-        height: 150px;
     }
 }
