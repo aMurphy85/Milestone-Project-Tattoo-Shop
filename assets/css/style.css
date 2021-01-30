@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    background-color: #DCDCDC;
+    background-color: #f2f2f2;
 }
 
 /*-------------------------------------------------------- Navbar header */
@@ -20,6 +20,7 @@ body {
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    border-bottom: 1px solid #991f1f;
 }
 
 .navbar-brand {
@@ -118,14 +119,12 @@ button {
 /*-------------------------------------------------------- Recent work */
 
 .recent-work {
-    background-color: #f2f2f2;
     text-align: center;
     padding: 15px;
 }
 
 .recent-work-heading {
     text-align: center;
-    color: #991f1f;
 }
 
 .d-inline img {
@@ -196,53 +195,30 @@ footer {
     font-size: 400%;
     letter-spacing: 2px;
     text-align: center;
-    background-color: #f2f2f2;
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 
-.black-grey-heading {
+.heading h1 {
     text-align: center;
-    background-color: #525252;
-    color: #f2f2f2;    
     margin: 0;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding: 15px;
+    border-top: 1px solid #991f1f;
+    border-bottom: 1px solid #991f1f;
 }
 
 .black-grey-work {
     text-align: center;
-    background-color: #525252;
     padding: 30px;
-}
-
-.neo-trad-heading {
-    text-align: center;
-    background-color: #f2f2f2;
-    color: #991f1f;
-    margin: 0;
-    padding-top: 15px;
-    padding-left: 15px;
 }
 
 .neo-trad-work {
     text-align: center;
-    background-color: #f2f2f2;
     padding: 30px;
-}
-
-.colour-heading {
-    text-align: center;
-    background-color: #991f1f;
-    color: #f2f2f2;
-    margin: 0;
-    padding-top: 15px;
-    padding-left: 15px;
 }
 
 .colour-work {
     text-align: center;
-    background-color: #991f1f;
     padding: 30px;
 }
 
@@ -251,6 +227,7 @@ footer {
 .contact-us-heading {
     letter-spacing: 2px;
     text-align: center;
+    padding: 15px;
 }
 
 .contact-us {    
@@ -305,7 +282,7 @@ footer {
 }
 
 .form {
-    background-color: #f2f2f2;
+    background-color: #DCDCDC;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -314,6 +291,10 @@ footer {
 .label {
     margin: 0;
     padding-top: 15px;
+}
+
+.form button {
+    background-color: #991f1f;
 }
 
 #button {
@@ -340,6 +321,10 @@ footer {
         height: 500px;
     }
 
+    #contact-hero-image {
+        height: 500px;
+    }
+
     .d-inline img {
         width: 150px;
         height: 150px;
@@ -350,8 +335,6 @@ footer {
         border-bottom: 1px solid #f2f2f2;
 }
 }
-
-
 
 @media (max-width: 992px) {
     .shop-front img {
