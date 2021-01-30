@@ -30,23 +30,25 @@
                         <div class="navbar-nav">
                             <a class="nav-link" href="index.html">Home</a>
                             <a class="nav-link" href="gallery.html">Gallery</a>
-                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
                         </div>
                     </div>
                 </div>
             </nav>
-    </header>        
+    </header>      
+
     <!-- Hero Image -->
         <section>
              <div class="row">
                 <div class="container-fluid img-fluid" id="hero-image"></div>
             </div>
         </section>
-    <!-- Contact Us Form -->
+
+    <!-- Contact Us -->
         <section class="container-fluid">
             <div class="contact-us-form">
-                    <div class="row contact-us-heading">
-                        <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 contact-us-heading">
                             <h1>
                                 Contact Us
                             </h1>
@@ -56,74 +58,110 @@
 
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-8 col-lg-8 justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-4 contact-us">
+                        <h3>Address:</h3>
+                        <p>
+                                Metamorphosis Tattoo Shop
+                            <br>
+                                17 Westexe South, 
+                            <br>
+                                Tiverton,
+                            <br>            
+                                Devon, 
+                            <br>    
+                                EX16 5DQ
+                        </p>
+                    <p>
+                        <strong>Phone</strong>  <i class="fas fa-phone"></i> 
+                        01884 253240
+                    </p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 opening-times">
+                        <h3>Opening Times:</h3>
+                    <ul class="times">
+                        <li>
+                            Mondays, Fridays & Saturdays : 
+                        <br>    
+                            10:00 - 17:00
+                        </li>
+                        <li>
+                            Tuesdays, Wednesdays & Thursdays : 
+                        <br>    
+                            10:00 - 15:00
+                        </li>                       
+                        <li>
+                            Sundays : Closed
+                        </li>
+                    </ul> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-12 col-lg-8 form-info">
+                        <h5>
+                            If your after a new tattoo or general equiries please feel free to contact us using the form 
+                            below and we will get back to you as soon as possible. Alternatively you can call us on the 
+                            number above
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Form -->
+            <div class="container">
+                <div class="row justify-content-center" id="form">
+                    <div class="col-sm-12 col-md-8 col-lg-8 justify-content-center">                        
                         <form class="form">
-                            <label for="firstname" class="label"><strong>First Name *</strong></label>
-                        <br>
-                            <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="firstname" type="text" required>
-                        <br>
-                            <label  for="lastname" class="label"><strong>Last Name *</strong></label>
-                        <br>
-                            <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lastname" type="text" required>
-                        <br>
                             
-                            <label for="email" class="label"><strong>Email address *</strong></label>
-                        <br>
-                            <input type="email" name="email" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="name@example.com" required>
-                        <br>
+                                <label for="firstname" class="label"><strong>First Name *</strong></label>
+                            <br>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label justify-content-center" id="firstname" type="text" required>
+                            <br>
+                                <label  for="lastname" class="label"><strong>Last Name *</strong></label>
+                            <br>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lastname" type="text" required>
+                            <br>
+                                
+                                <label for="email" class="label"><strong>Email address *</strong></label>
+                            <br>
+                                <input type="email" name="email" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="name@example.com" required>
+                            <br>
 
-                            <label for="phonenumber" class="label"><strong>Phone Number</strong></label>
-                        <br>
-                            <input type="tel" name="phone" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="Optional">
-                        <br>
+                                <label for="phonenumber" class="label"><strong>Phone Number</strong></label>
+                            <br>
+                                <input type="tel" name="phone" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="Optional">
+                            <br>
 
-                        <label for="size" class="label"><strong>Appromiate Size Of Tattoo *</strong></label>
-                        <br>
-                            <input type="text" name="size" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="i.e. 15 x 15cm / Full Sleeve etc ..." required>
-                        <br>
-                            
-                            <label for="label">
-                                <strong>Give Us A description Of What Your Thinking Of Getting</strong>
-                            </label>
-                            <small id="descriptionhelp" class="form-text text-muted">Please include any themes (i.e. Japanese etc), if you would like colour in your tattoo etc.</small>
-                        <br>
-                                <textarea class="col-sm-12 col-md-12 col-lg-8" rows="4"></textarea>
-                        <br>
+                                <label for="size" class="label"><strong>Appromiate Size Of Tattoo *</strong></label>
+                            <br>
+                                <input type="text" name="size" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="i.e. 15 x 15cm / Full Sleeve etc ..." required>
+                            <br>
+                                
+                                <label class="label">
+                                    <strong>Give Us A description Of What Your Thinking Of Getting</strong>
+                                </label>
+                            <br>
+                                <small id="descriptionhelp" class="form-text text-muted">Please include any themes (i.e. Japanese etc), if you would like colour in your tattoo etc.</small>
+                                    <textarea class="col-sm-12 col-md-12 col-lg-8" rows="4"></textarea>
+                            <br>
 
-                            <button type="button" class="btn btn-secondary">SEND</button>
+                            <div id="button">
+                                <button type="submit" class="btn btn-secondary">SEND</button>
+                            </div>
+
                         </form>
+                        
                     </div>
                 </div>
             </div>
         </section>
 
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4 opening-times ">
-                <p><strong>Opening Times:</strong></p>
-                    <ul class="times">
-                        <li>
-                            Mondays, Fridays, Saturdays : 10:00 - 17:00
-                        </li>
-                        <li>
-                            Tuesdays, Wednesdays, Thursdays : 10:00 - 15:00
-                        </li>                       
-                        <li>
-                            Sunday : Closed
-                        </li>
-                    </ul>                                                  
-            </div>
-            <div class="col-sm-4 contact-us">                
-                <p><strong>Address:</strong></p>
-                    <p>
-                        17 Westexe South, Tiverton            
-                        Devon, EX16 5DQ
-                    </p>
-                    <p><strong>Phone:</strong> <i class="fas fa-phone"></i>
-                    01884 253240</p>
-            </div>            
-            <div class="col-sm-4">
-                <div class="social">               
+    <footer >
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-4 socials">               
                     <p><strong>Follow Us On:</strong></p>
                         <ul class="list-inline-item">
                             <li class="list-inline-item">
@@ -139,10 +177,9 @@
                                 </a>
                             </li>                                
                         </ul>
-                </div>                              
-            </div>               
-            
-        </div>        
+                </div>    
+            </div>
+        </div>       
     </footer>
 </body>
 </html>
