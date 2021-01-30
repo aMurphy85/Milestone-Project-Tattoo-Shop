@@ -48,54 +48,51 @@
                     <div class="row contact-us-heading">
                         <div class="col-12">
                             <h1>
-                                Thinking About Getting A New Tattoo Why Not Contact Us For A Price
+                                Contact Us
                             </h1>
                         </div>
                     </div>
-                    
-                    <div class="col-8 form">
-                        <form class="contact-form">                            
-                            
-                            <label>First Name:</label>
-                            <input type="text" class="form-control col-sm-12 col-md-6 col-lg-6" placeholder="First name">                             
-                            
-                            <label>Last Name:</label>
-                            <input type="text" class="form-control col-sm-12 col-md-6 col-lg-6" placeholder="Last name">                             
+            </div>
 
-                            <label>Email Adress:</label>                        
-                            <input type="email" class="form-control col-sm-12 col-md-6 col-lg-6" id="exampleFormControlInput1" placeholder="name@example.com">
-                           
-                            <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <option selected>Choose...</option>
-                                <option value="1">New Tattoo</option>
-                                <option value="2">Cover Up Of Existing Tattoo</option>
-                                <option value="3">Re-Work Of Existing Tattoo</option>                                    
-                            </select>                          
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 justify-content-center">
+                        <form class="form">
+                            <label for="firstname" class="label"><strong>First Name *</strong></label>
+                        <br>
+                            <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="firstname" type="text" required>
+                        <br>
+                            <label  for="lastname" class="label"><strong>Last Name *</strong></label>
+                        <br>
+                            <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lastname" type="text" required>
+                        <br>
                             
-                            <label class="mr-sm-2 col-auto" for="inlineFormCustomSelect">Preference</label>
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <option selected>Choose...</option>
-                                <option value="1">Arm</option>
-                                <option value="2">Back</option>
-                                <option value="3">Leg</option>
-                                <option value="3">Other</option>
-                            </select>
-                           
-                            <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <option selected>Choose...</option>
-                                <option value="1">Black & Grey</option>
-                                <option value="2">Colour</option>
-                                <option value="3">Both</option>
-                            </select>
-                            
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>                            
+                            <label for="email" class="label"><strong>Email address *</strong></label>
+                        <br>
+                            <input type="email" name="email" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="name@example.com" required>
+                        <br>
 
-                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                            <label for="phonenumber" class="label"><strong>Phone Number</strong></label>
+                        <br>
+                            <input type="tel" name="phone" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="Optional">
+                        <br>
+
+                        <label for="size" class="label"><strong>Appromiate Size Of Tattoo *</strong></label>
+                        <br>
+                            <input type="text" name="size" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="i.e. 15 x 15cm / Full Sleeve etc ..." required>
+                        <br>
                             
+                            <label for="label">
+                                <strong>Give Us A description Of What Your Thinking Of Getting</strong>
+                            </label>
+                            <small id="descriptionhelp" class="form-text text-muted">Please include any themes (i.e. Japanese etc), if you would like colour in your tattoo etc.</small>
+                        <br>
+                                <textarea class="col-sm-12 col-md-12 col-lg-8" rows="4"></textarea>
+                        <br>
+
+                            <button type="button" class="btn btn-secondary">SEND</button>
                         </form>
+                    </div>
                 </div>
             </div>
         </section>

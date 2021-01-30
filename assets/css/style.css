@@ -270,6 +270,10 @@ footer {
     padding-left: 50px;
 }
 
+.form {
+    text-align: center;
+}
+
 /*-------------------------------------------------------- Contact Info */
 
 .contact-info {
