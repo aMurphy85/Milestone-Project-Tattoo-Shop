@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+    color: #525252;
 }
 
 /*-------------------------------------------------------- Navbar header */
@@ -36,7 +37,6 @@ button {
 #title {
     font-size: 200%;
     letter-spacing: 1px;
-    color: #525252;
     margin: 0;
 }
 
@@ -70,7 +70,6 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f2f2f2;
 }
 
 #gallery-hero-image {
@@ -82,16 +81,21 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f2f2f2;
 }
 
 /*-------------------------------------------------------- About Us */
 
-.about-us-section {
-    background-color: rgba(3, 3, 3, 0.705);
+.about-us-heading {
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #991f1f;
+}
+
+.about-us-section {
+    text-align: center;
+    margin: 0;
+    padding: 20px;    
 } 
 
 .shop-logo img {
@@ -103,7 +107,6 @@ button {
 }
 
 .about-us {
-    color: #f2f2f2;
     text-align: center;
     padding: 20px;
 }
@@ -120,13 +123,8 @@ button {
 
 .recent-work {
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
-
-.recent-work-heading {
-    text-align: center;
-}
-
 .d-inline img {
     padding: 3px;
     width: 300px;
@@ -135,28 +133,23 @@ button {
 
 /*-------------------------------------------------------- Testemonials */
 
-.testemonials {
-    text-align: center;
-    color: #f2f2f2;
-    background-color: #991f1f;
-    margin: 0;
-}
-
 .comments {
     text-align: center;
-    color: #f2f2f2;
-    background-color: #991f1f;
     margin-block-start: 0;
     padding: 20px;
+}
+
+.comments i {
+    padding-left: 5px;
 }
 
 /*-------------------------------------------------------- Footer */
 
 footer {
     background-color: #f2f2f2;
-    color: #525252;
     height: 75px;
     margin: 0;
+    border-top: 1px solid #991f1f;
 }
 
 .socials {
@@ -197,6 +190,7 @@ footer {
     text-align: center;
     margin: 0;
     padding: 15px;
+    color: black;
 }
 
 .heading h1 {
@@ -251,11 +245,7 @@ footer {
     text-align: center;
     padding: 10px;
     border-top: 1px solid #991f1f;
-    border-bottom: 1px solid #991f1f; 
-}
-
-.opening-times p {
-    padding-top: 5px;
+    border-bottom: 1px solid #991f1f;
 }
 
 .opening-times ul {
@@ -343,7 +333,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .comment-3 {
+    #comment-3 {
         display: none;
     }
 }
