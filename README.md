@@ -1,45 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## METAMORPHOSIS TATTOO SHOP OF TIVERTON
 
-Welcome aMurphy85,
+A local Tattoo shop wanted to upgrade there current webpage to increase client base, by providing better visual 
+representationthat not only showcases the art work the shop have done but to also capture your attention as soon
+as you open the webpage, making the client want to re-visit the site and tell others to visit it for there tattoos
+too.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+*Navbar* holds the title of the shop and links to the gallery and contact page that is constant across all of them which
+follows users as you scroll down the page making swapping between pages much easier and quicker.
 
-Another blue button should appear to click: *Open Browser*.
+*Hero-image* is very large and very eye catching image of the shop owner tattoing a customer. Taking up most of the 
+viewport as you open the webpage making it clear what the website is about. It is the same for the gallery page but the picture is
+of a painting the shop owner has painted himself showing off his talents to the users.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+*About us* section gives a background story into the shop and Sam the shop owner. The shop logo (branding) is used to help make
+the shop more recognisable. 
 
-A blue button should appear to click: *Make Public*,
+*Recent work* section is images showcasing a number of different tattoos, in different styles and themes to help users/ potential 
+clients see the quality of work the shop do and to help users/ clients see options they can use for there own designs.
 
-Another blue button should appear to click: *Open Browser*.
+*Testimonials* section has comments from previous and current customers that have had great experiences getting there tattoos 
+from Sam at his shop. This could help anyone who is unsure/ undecided on whether to get there tattoo from here or someone else.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*Footer* holds links to social network websites facebook and instagram that users to the site can click on and view more stuff 
+the shop has posted like images or even deals on tattoos etc. This is also constant across all the pages making them easier to
+access.
 
-## Updates Since The Instructional Video
+*Gallery* has multiple sub-headings of different tattoo style names Sam carries out and showcases a number of those images in
+that particular style.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+*Contact page* has general contact information like the address, phone number, email address and opening times. There is a 
+simple form the user can fill out and send off to the shop to get a price guide or ask about any general enquiry they may have.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Existing Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Deployment
 
---------
 
-Happy coding!
+## Credits
+
+
+### Content
+
+
+### Media
+
+
+### Acknowledgements
