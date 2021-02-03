@@ -112,20 +112,21 @@
             <div class="container">
                 <div class="row justify-content-center" id="form">
                     <div class="col-sm-12 col-md-8 col-lg-8 justify-content-center">                        
-                        <form class="form">
+                        <form class="form" action="#" method="POST">
                             
-                                <label for="firstname" class="label"><strong>First Name *</strong></label>
+                                <label for="fname" class="label"><strong>First Name *</strong></label>
                             <br>
-                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label justify-content-center" id="firstname" type="text" required>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label justify-content-center" id="fname" type="text" name="fname" required>
                             <br>
-                                <label  for="lastname" class="label"><strong>Last Name *</strong></label>
+                                <label  for="lname" class="label"><strong>Last Name *</strong></label>
                             <br>
-                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lastname" type="text" required>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lname" type="text" name="lname" required>
                             <br>
                                 
                                 <label for="email" class="label"><strong>Email address *</strong></label>
                             <br>
-                                <input type="email" name="email" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="name@example.com" required>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" type="email" id="email" name="email"  
+                                    placeholder="name@example.com" required>
                             <br>
 
                                 <label for="phonenumber" class="label"><strong>Phone Number</strong></label>
@@ -135,7 +136,7 @@
 
                                 <label for="size" class="label"><strong>Appromiate Size Of Tattoo *</strong></label>
                             <br>
-                                <input type="text" name="size" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="i.e. 15 x 15cm / Full Sleeve etc ..." required>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" type="text" name="size"  placeholder="i.e. 15 x 15cm / Full Sleeve etc ..." required>
                             <br>
                                 
                                 <label class="label">
@@ -147,7 +148,7 @@
                             <br>
 
                             <div id="button">
-                                <button type="submit" class="btn btn-secondary">SEND</button>
+                                <button type="submit" id="submit" value="SUBMIT" class="btn btn-secondary">SEND</button>
                             </div>
 
                         </form>
@@ -164,13 +165,13 @@
                     <p><strong>Follow Us On:</strong></p>
                         <ul class="list-inline-item">
                             <li class="list-inline-item">
-                                <a href="#" target="_blank">
+                                <a href="https://www.instagram.com/metamorphosistattoostudiotiv/?hl=en" target="_blank">
                                     <i class="fab fa-instagram-square" aria-hidden="true"></i>
                                         <span class="sr-only">Instagram</span>                                
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" target="_blank">
+                                <a href="https://www.facebook.com/Metamorphosis-tattoo-piercing-studio-204114539734458" target="_blank">
                                     <i class="fab fa-facebook-square" aria-hidden="true"></i>
                                         <span class="sr-only">Facebook</span>                                
                                 </a>
