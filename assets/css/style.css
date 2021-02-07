@@ -62,10 +62,9 @@ button {
 /*-------------------------------------------------------- Hero image */
 
 #hero-image {
-    height: 900px;
+    height: 800px;
     width: 100%;
     margin: 0;
-    padding-top: 75px;
     background: url("../images/main-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -73,11 +72,20 @@ button {
 }
 
 #gallery-hero-image {
-    height: 900px;
+    height: 800px;
     width: 100%;
     margin: 0;
-    padding-top: 75px;
     background: url("../images/gallery-hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-hero-image {
+    height: 800px;
+    width: 100%;
+    margin: 0;
+    background: url("../images/shop-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,6 +323,7 @@ footer {
 
     #contact-hero-image {
         height: 500px;
+        background-position: left;
     }
 
     .d-inline img {
@@ -325,17 +334,19 @@ footer {
     .comments p {
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
-}
+    }
 }
 
 @media (max-width: 992px) {
     .shop-front img {
         display: none;
     }
-}
 
-@media (max-width: 768px) {
     #comment-3 {
         display: none;
+    }
+
+    #contact-hero-image {
+        background-position: left;
     }
 }
