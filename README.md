@@ -7,7 +7,34 @@ too.
 
 ## UX
 
+### User Stories
 
+- As a new user to the website, I want to be able to navigate through the site easily and find what I need effieciantly.
+
+- As a new user to the site, I want to be able to find the *gallery* easily, find the particular style of tattoo I'm thinking
+  getting, look at the images clearly to help me with my own design/ ideas.
+
+- As a potential customer, I want to know about the history of the studio and that the artist is qualified, competent
+  and follows the UK Health & Saftey current standards.
+
+- As a potential customer, I want to know about other customer experiences using the studio and artist to give me 
+  confidence to use the studio myself.
+
+- As a potential customer, I want to be able to contact the studio easily, get a swift response on price range to compare 
+  with competitors and check I can afford to have the work done, also about any general information I might not know about
+  fully and booking time slots to have the work done.
+
+- As a potential customer, I would like to be able to follow the studio on social media websites for any updates on deals they
+  might be offering and recent news.
+
+- As a returning customer, I want to be able to quickly contact the studio on booking me in for my next stage of my tattoo work
+  or on my new art work i would like next.
+
+### Wireframe mockups
+
+- ![Home]()
+- ![Gallery]()
+- ![Contact Us]()
 
 ## Features
 
@@ -39,6 +66,25 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 ### Existing Features
 
+### In the furture I would like to implement the following features
+
+    1. A banner advertising gift cards and after care products the studio offer.
+
+    2. Animation to the hero image to capture users attention and so the site isnt so static.
+
+    3. A more attractive grid system to display the images.
+
+    4. Showcase more styles of tattoos, larger gallery.
+
+    5. Have a more interactive gallery, where you would need to click on the style of tattoo sub-heading which would open 
+    the images inside.
+
+    6. Be able to look at a picture closer by getting an enlarged view of the image once you have clicked on it.
+
+    7. have more customer testimonials scrolling accross the screen.
+
+    8. In the form add a upload section so customers can send there own designs or images they have found to the studio
+    for more accurate pricing and to be worked on to make them more unique.
 
 ## Technologies Used
 
