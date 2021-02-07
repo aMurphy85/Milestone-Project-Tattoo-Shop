@@ -485,7 +485,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 # __Credits__
 
-### __Content__
+### __Content & Media__
 
 - The text and images were acquired from the studios Facebook page and website.
 
@@ -496,11 +496,6 @@ simple form the user can fill out and send off to the shop to get a price guide 
 [Metamorphosis tattoo & piercing shop Facebook social media page](https://www.facebook.com/Metamorphosis-tattoo-piercing-studio-204114539734458/#_=_)
 
 - The rest of the text was written by me.
-
-### __Media__
-
-- The photos used in this project website were obtained directly from the owner of the tattoo shop via email and from his facebook 
-page [Metamorphosis tattoo & piercing shop Facebook page](https://www.facebook.com/Metamorphosis-tattoo-piercing-studio-204114539734458)
 
 ### __Acknowledgements__
 
