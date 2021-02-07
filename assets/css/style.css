@@ -5,8 +5,8 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
-    color: #525252;
+    background-color: #faf9f9;
+    color: #3b3b3b;
 }
 
 /*-------------------------------------------------------- Navbar header */
@@ -103,8 +103,15 @@ button {
 .about-us-section {
     text-align: center;
     margin: 0;
-    padding: 20px;    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 } 
+
+.shop-logo {
+    padding-top: 5px;
+}
 
 .shop-logo img {
     width: 300px;
@@ -112,12 +119,13 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0;
+    padding-top: 10px;
+    vertical-align: middle;
 }
 
 .about-us {
     text-align: center;
-    padding: 15px;
+    padding: 0;
 }
 
 .about-us ul {
@@ -125,8 +133,15 @@ button {
     padding: 0;
 }
 
-.about-us li {
+.about-us p {
     padding-top: 5px;
+    font-size: 20px;
+}
+
+.about-us li {
+    padding: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 /*-------------------------------------------------------- Recent work */
@@ -348,5 +363,9 @@ footer {
 
     #contact-hero-image {
         background-position: left;
+    }
+
+    .about-us {
+        padding-top: 15px;
     }
 }
