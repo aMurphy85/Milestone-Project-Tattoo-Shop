@@ -1,7 +1,7 @@
 # __METAMORPHOSIS TATTOO STUDIO OF TIVERTON__
 
-A local Tattoo shop wanted to upgrade there current webpage to increase client base, by providing better visual 
-representationthat not only showcases the art work the shop have done but to also capture your attention as soon
+A local Tattoo shop wanted to upgrade their current webpage to increase client base, by providing better visual 
+representationthat not only showcases the art work the shop has done but to also capture your attention as soon
 as you open the webpage, making the client want to re-visit the site and tell others to visit it for there tattoos
 too.
 
@@ -15,7 +15,7 @@ too.
   getting, look at the images clearly to help me with my own design/ ideas.
 
 - As a potential customer, I want to know about the history of the studio and that the artist is qualified, competent
-  and follows the UK Health & Saftey current standards.
+  and follows the UK Health & Safety current standards.
 
 - As a potential customer, I want to know about other customer experiences using the studio and artist to give me 
   confidence to use the studio myself.
@@ -28,13 +28,13 @@ too.
   might be offering and recent news.
 
 - As a returning customer, I want to be able to quickly contact the studio on booking me in for my next stage of my tattoo work
-  or on my new art work i would like next.
+  or on my new art work I would like next.
 
-### __Wireframe mockups__
+### __Wireframes__
 
-- ![Home]()
-- ![Gallery]()
-- ![Contact Us]()
+- [Image of wireframe home page]()
+- [Image of wireframe gallery page]()
+- [Image of wireframe contact us page]()
 
 ## __Features__
 
@@ -42,7 +42,7 @@ too.
 across all of them which follows users as you scroll down the page making swapping between pages much easier and quicker. The navigation 
 links change from text to a burger icon for a dropdown menu of the links on smaller devices.
 
-- __Hero-image__ is very large and very eye catching image of the shop owner tattoing a customer. Taking up most of the 
+- __Hero-image__ is very large and very eye-catching image of the shop owner tattoing a customer. Taking up most of the 
 viewport as you open the webpage making it clear what the website is about. It is the same for the gallery page but the picture is
 of a painting the shop owner has painted himself showing off his talents to the users.
 
@@ -53,7 +53,7 @@ the shop more recognisable.
 clients see the quality of work the shop do and to help users/ clients see options they can use for there own designs.
 
 - __Testimonials__ section has comments from previous and current customers that have had great experiences getting there tattoos 
-from Sam at his shop. This could help anyone who is unsure/ undecided on whether to get there tattoo from here or someone else.
+from Sam at his shop. This could help anyone who is unsure/ undecided on whether to get their tattoo from here or someone else.
 
 - __Footer__ holds links to social network websites facebook and instagram that users to the site can click on and view more stuff 
 the shop has posted like images or even deals on tattoos etc. This is also constant across all the pages making them easier to
@@ -71,7 +71,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. A banner advertising gift cards and after care products the studio offer.
 
-2. Animation to the hero image to capture users attention and so the site isnt so static.
+2. Animation to the hero image to capture user's attention and so the site isnt so static.
 
 3. A more attractive grid system to display the images.
 
@@ -82,9 +82,9 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 6. Be able to look at a picture closer by getting an enlarged view of the image once you have clicked on it.
 
-7. have more customer testimonials scrolling accross the screen.
+7. Have more customer testimonials scrolling across the screen.
 
-8. In the form add a upload section so customers can send there own designs or images they have found to the studio
+8. In the form add an upload section so customers can send their own designs or images they have found to the studio
     for more accurate pricing and to be worked on to make them more unique.
 
 9. A search input so you can find what you are looking for on the site wuicker like certain style of tattoos or contact form.
@@ -136,7 +136,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
     - Responsive elements were used to achieve the consitent feel across all viewports.
     - All pages have been simulated on desktop, tablet and phone screen sizes to verify the responsiveness of the website.
 
-6. __Want to be able to connect to the studios social media sites to keep update to date with any recent news or deals.__
+6. __Want to be able to connect to the studio's social media sites to keep update to date with any recent news or deals.__
     - The footer contains links to the studios social media sites on Facebook and Instagram.
     - The links once clicked open the social media pages in a seperate window tab and are clearly indentified using the appropriate 
     icons.
@@ -186,7 +186,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
     1. Check that the size of the images are visible and the layout works with the layout and flow of the page.
 
 6. __Testimonials__
-    1. Check that the information is clear readable and not overloading the user with to much information is a small space.
+    1. Check that the information is clear readable and not overloading the user with too much information is a small space.
 
 7. __Footer socials icon links__
     1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
@@ -234,7 +234,6 @@ simple form the user can fill out and send off to the shop to get a price guide 
     2. Check that the information is understandable, icons have been used to help identify the information.
 
 5. __Contact Us form__
-
     1. Go to "Contact Us" page.
     2. Try to submit an empty form
         verify that an error message for required fields appears.
@@ -254,17 +253,85 @@ simple form the user can fill out and send off to the shop to get a price guide 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
 
-2. __Hero-image__
-    1. Check that the size of image adjust to the smaller screen size.
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
 
-3. __About me information__
+3. __Hero-image__
+    1. Check that the *@media* css styling size of image adjust like it should to the smaller screen size.
+
+4. __About me information__
     1. Check the text is still visble and font size is still large enough to be easily seen.
     2. Check that the responsive bootstrap elements work, verify that the image goes above the *About us* information instead of 
         side by side.
 
+5. __Recent work images__
+    1. Check the responsive bootstrap elements are working as intended and are stacking the images 2 in a row on top of each other.
+    2. Check that the images are still large and clear enough to see.
+
+6. __Testimonials__
+    1. Check that comments font size is still large enough to read.
+    2. Check that the information is spaced apart enough and not overlapping each other.
+    3. Check that the *@media* css styling is working and the 3rd comment is not longer visible, just the 2 comments side by side.
+
+7. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+
 ### __Gallery page__
 
+1. __Navbar toggler icon__
+    1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __Hero-image__
+    1. Check that the *@media* css styling size of image adjust like it should to the smaller screen size.
+    2. Check that the hero image has changed to the correct image of a painting done by the studio owner.
+
+4. __Gallery images__
+    1. Check that the size of the images are visible and the layout works with the layout and flow of the page.
+
+5. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+
 ### __Contact Us page__
+
+1. __Navbar toggler icon__
+    1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __Hero-image__
+    1. Check that the *@media* css styling size of image adjust like it should to the smaller screen size.
+    2. Check that the hero image has changed to the correct image of the inside of the studio.
+
+4. __Contact information__
+    1. Check the text is visble and font size is large enough to be easily seen.
+    2. Check that the information is understandable, icons have been used to help identify the information.
+
+5. __Contact Us form__
+    1. Go to "Contact Us" page.
+    2. Try to submit an empty form
+        verify that an error message for required fields appears.
+    3. Submit complete form
+        verify the form was successfully sent.
+    4. Check that the form aligns central and is displayed clearly.
+
+6. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
 
 ### __Phone__
 
@@ -273,13 +340,88 @@ simple form the user can fill out and send off to the shop to get a price guide 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
 
-2. __Hero-image__
-    1. Check that the size of image adjust to the smaller screen size
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __Hero-image__
+    1. Check that the *@media* css styling size of image adjust like it should to the smaller screen size.
+
+4. __About me information__
+    1. Check the text is still visble and font size is still large enough to be easily seen.
+    2. Check that the responsive bootstrap elements work, verify that the image goes above the *About us* information instead of 
+        side by side.
+
+5. __Recent work images__
+    1. Check the responsive bootstrap elements are working as intended and are stacking the images 2 in a row on top of each other.
+    2. Check that the images are still large and clear enough to see.
+
+6. __Testimonials__
+    1. Check that comments font size is still large enough to read.
+    2. Check that the information is spaced apart enough and not overlapping each other.
+    3. Check that the *@media* css styling is working and the 3rd comment is not longer visible, just the 2 comments stack 1 on top the 
+    other.
+
+7. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
 
 ### __Gallery page__
 
+1. __Navbar toggler icon__
+    1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __Hero-image__
+    1. Check that the *@media* css styling size of image adjust like it should to the smaller screen size.
+    2. Check that the hero image has changed to the correct image of a painting done by the studio owner.
+
+4. __Gallery images__
+    1. Check that the size of the images are visible and the layout works with the layout and flow of the page.
+
+5. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+
 ### __Contact Us page__
 
+1. __Navbar toggler icon__
+    1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __Hero-image__
+    1. Check that the *@media* css styling size of image adjust like it should to the smaller screen size.
+    2. Check that the hero image has changed to the correct image of the inside of the studio.
+
+4. __Contact information__
+    1. Check the text is visble and font size is large enough to be easily seen.
+    2. Check that the information is understandable, icons have been used to help identify the information.
+    3. Check the responsive bootstrap elements are working and the contact information is stacking on top of the opening times
+    instead of sitting side by side.
+
+5. __Contact Us form__
+    1. Go to "Contact Us" page.
+    2. Try to submit an empty form
+        verify that an error message for required fields appears.
+    3. Submit complete form
+        verify the form was successfully sent.
+    4. Check that the form aligns central and is displayed clearly.
+
+6. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
 
 ## __Bugs__
 
@@ -299,7 +441,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
         * }
 
     - After contacting the slack community and the Code Institute tutors, I realised the image sizing was the problem.
-    - To solve this issue I had to find a larger image.
+    - To solve this issue, I had to find a larger image.
 
 2. __Contact form,__
     - I used the the bootstrap classes to input my contact form at first which was fine and worked an aligned central to the page.
@@ -341,13 +483,19 @@ simple form the user can fill out and send off to the shop to get a price guide 
 ## __Deployment__
 
 
-## __Credits__
-
+# __Credits__
 
 ### __Content__
 
-- The content for the *testimonial* was copied from the 
+- The text and images were acquired from the studios Facebook page and website.
+
+1. Metamorphosis Tattoo & Piercing Studio website
 [Metamorphosis tattoo & piercing shop webpage](https://metamorphosis-tattoo-and-piercing.business.site/)
+
+2. Metamorphosis Tattoo & Piercing Studio Facebook page
+[Metamorphosis tattoo & piercing shop Facebook social media page](https://www.facebook.com/Metamorphosis-tattoo-piercing-studio-204114539734458/#_=_)
+
+- The rest of the text was written by me.
 
 ### __Media__
 
@@ -355,3 +503,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
 page [Metamorphosis tattoo & piercing shop Facebook page](https://www.facebook.com/Metamorphosis-tattoo-piercing-studio-204114539734458)
 
 ### __Acknowledgements__
+
+- __I received inspiration to do this webpage:__
+    - From my interest in tattoos.
+    - The studio is where I get my own tattoo done.
+    - Studio owner is a good friend of mine and would like to produce a complete website eventually they can use for real.
