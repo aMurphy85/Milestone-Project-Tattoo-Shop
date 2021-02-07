@@ -9,7 +9,7 @@ too.
 
 ### __User Stories__
 
-- As a new user to the website, I want to be able to navigate through the site easily and find what I need effieciantly.
+- As a new user to the website, I want to be able to navigate through the site easily and find what I need efficently.
 
 - As a new user to the site, I want to be able to find the *gallery* easily, find the particular style of tattoo I'm thinking
   getting, look at the images clearly to help me with my own design/ ideas.
@@ -67,7 +67,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 ### __Existing Features__
 
-### __In the furture I would like to implement the following features__
+### __In the furture I would like to implement the following features:__
 
 1. A banner advertising gift cards and after care products the studio offer.
 
@@ -105,52 +105,181 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 ## __Testing__
 
-1. __Navbar links Desktop__
+### __User story testing__
 
-    1. From the "Home" page click on the "Gallery" page link
+#### __As a user to the Metamorphosis Tattoo Studio website I:__
+
+1. __Need the website to be laid out in a way that makes it easy for me to navigate and find what I need quickly.__
+    - Arrange the site so that elements like the navbar, footer, icons, images and contact form are in the expected places.
+    - All pages can be accessed from the navbar that is constantly fixed to the top of the screen and clearly indentified,
+    following you as you move down the structure of the website making it easy to jump back to any page you need.
+
+2. __Need the information I see on the site to make sense, easy to to understand so it is ok for me to digest.__
+    - Arrange the information so that the more important stuff is prioritised, not over complicated so that the user can 
+    digest the information they are more interested in firstly and easily.
+    - Clear headings of the sections on each page and images help digest the information quickly.
+
+3. __Need to know more about the studio owner and artist, so that I can trust them with a carrying out my tattoo.__
+    - The about me sections provides a brief history into the studio and its owner with enough information, without overloading
+    them to build confidence in the user on getting a tattoo from them.
+    - The testimonial section provides even more reassurance in the user with feedback from customers who have used the services
+    provided by the studio. Icons are used along side the text to help make the information easier to digest.
+
+4. __Need information and the images to be laid out so they are simple to navigate on what ever device I'm using.__
+    - I used a very simple lay out for the images with enough spacing between each, making it clear and precise that works on all
+    devices.
+    - Information text is never to large or small, icons and buttons are large enough to see what they are clearly and click on.
+
+5. __Expect the website to be easy to navigate on whatever device I am using.__
+    - A lot of attention was put into making sure the website looked as similar as possible on all devives producing wireframes first
+    and working from them.
+    - Responsive elements were used to achieve the consitent feel across all viewports.
+    - All pages have been simulated on desktop, tablet and phone screen sizes to verify the responsiveness of the website.
+
+6. __Want to be able to connect to the studios social media sites to keep update to date with any recent news or deals.__
+    - The footer contains links to the studios social media sites on Facebook and Instagram.
+    - The links once clicked open the social media pages in a seperate window tab and are clearly indentified using the appropriate 
+    icons.
+
+7. __Expect to be able to get in touch with the studio via a contact form or by phone easily.__
+    - The navbar is clearly marked with a *Contact Us* page and is accessible at all times.
+    - From the *Conatct us* page all the relevant information on how to get in touch with the studio are available and clear.
+    - The contact us form is very simple, easy to understand and gives clear precise information on missed input fields.
+
+## __Manual testing__
+
+### __Desktop__
+
+#### __Home page__
+
+1. __Navbar links__
+    1. Hover mouse over the navigation links,
+        verify that the text decoration of a *red underline* appears.
+    2. From the "Home" page click on the "Gallery" page link,
          verify that you navigate to the "Gallery" page of the site.
-
-    2. From the "Gallery" page click on the "Home" page link
+    3. From the "Gallery" page click on the "Home" page link,
          verify that you navigate back to the "Home" page of the site.
-
-    3. From the "Home" page click on the "Contact Us" page link
+    4. From the "Home" page click on the "Contact Us" page link,
          verify that you navigate to the "Contact Us" page of the site.
-
-    4. From the "Contact Us" page click on the "Home" page link
+    5. From the "Contact Us" page click on the "Home" page link,
          verify that you navigate back to the "Home" page of the site.
-
-    5. From the "Gallery" page click on the "Conatact Us" page link
+    6. From the "Gallery" page click on the "Conatact Us" page link,
          verify that you navigate to the "Contact Us" page of the site.
-
-    6. From the "Contact Us" page click on the "Gallery" page link
+    7. From the "Contact Us" page click on the "Gallery" page link,
          verify that you navigate to the "Gallery" page of the site.
-
-    7. From the "Home" page click on the *Metamorphosis Tattoo Studio Tiverton* branding
+    8. From the "Home" page click on the *Metamorphosis Tattoo Studio Tiverton* branding,
          verify that you navigate back to the top of the home page.
-
-    8. From both the "Gallery" page and the "Contact Us" page click on the *Metamorphosis Tattoo Studio Tiverton* branding
+    9. From both the "Gallery" page and the "Contact Us" page click on the *Metamorphosis Tattoo Studio Tiverton* branding,
          verify that navigate back to the home page.
 
-2. __Footer socials icon links__
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
 
+3. __hero image__
+    1. Check the size and position of the image is ok for the layout of the page.
+
+4. __About me information__
+    1. Check the text is visble and font size is large enough to be easily seen.    
+
+5. __Recent work images__
+    1. Check that the size of the images are visible and the layout works with the layout and flow of the page.
+
+6. __Testimonials__
+    1. Check that the information is clear readable and not overloading the user with to much information is a small space.
+
+7. __Footer socials icon links__
     1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
          verify the icons fade in to a deep red colour from there static grey colour.
-
     2. Click on the Font Awesome icons
-         verify you navigate to the respective social networking platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
 
-    3. Repeat above process across the "Home" page, "Gallery" page and the "Contact Us" page
-         verify the links work from all 3 pages.
+### __Gallery page__
+
+1. __Navbar links__
+    1. Repeat steps from *Home* page navbar testing above,
+        verify the same outcome.
+
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __hero image__
+    1. Check the size and position of the image is ok for the layout of the page.
+
+4. __Gallery images__
+    1. Check that the size of the images are visible and the layout works with the layout and flow of the page.
+
+5. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+
+### __Contact Us page__
+
+1. __Navbar links__
+    1. Repeat steps from *Home* page and *Gallery* page navbar testing above,
+        verify the same outcome.
+
+2. __Navbar fixed top__
+    1. Scroll down the page,
+        verify that the navbar is fixed to the top of the page at all times.
+
+3. __hero image__
+    1. Check the size and position of the image is ok for the layout of the page.
+
+4. __Contact information__
+    1. Check the text is visble and font size is large enough to be easily seen.
+    2. Check that the information is understandable, icons have been used to help identify the information.
 
 5. __Contact Us form__
 
     1. Go to "Contact Us" page.
-
     2. Try to submit an empty form
         verify that an error message for required fields appears.
-
     3. Submit complete form
         verify the form was successfully sent.
+
+6. __Footer socials icon links__
+    1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
+         verify the icons fade in to a deep red colour from there static grey colour.
+    2. Click on the Font Awesome icons
+         verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+
+### __tablet__
+
+### __Home page__
+
+1. __Navbar toggler icon__
+    1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+
+2. __Hero-image__
+    1. Check that the size of image adjust to the smaller screen size.
+
+3. __About me information__
+    1. Check the text is still visble and font size is still large enough to be easily seen.
+    2. Check that the responsive bootstrap elements work, verify that the image goes above the *About us* information instead of 
+        side by side.
+
+### __Gallery page__
+
+### __Contact Us page__
+
+### __Phone__
+
+### __Home page__
+
+1. __Navbar toggler icon__
+    1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+
+2. __Hero-image__
+    1. Check that the size of image adjust to the smaller screen size
+
+### __Gallery page__
+
+### __Contact Us page__
+
 
 ## __Bugs__
 
