@@ -69,6 +69,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid #991f1f;
 }
 
 #gallery-hero-image {
@@ -79,6 +80,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid #991f1f;
 }
 
 #contact-hero-image {
@@ -89,6 +91,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid #991f1f;
 }
 
 /*-------------------------------------------------------- About Us */
@@ -251,8 +254,7 @@ footer {
 
 .contact-us {    
     text-align: center;
-    padding: 10px;
-    border-top: 1px solid #991f1f;
+    padding: 10px;    
     border-bottom: 1px solid #991f1f;  
 }
 
@@ -269,7 +271,6 @@ footer {
 .opening-times {
     text-align: center;
     padding: 10px;
-    border-top: 1px solid #991f1f;
     border-bottom: 1px solid #991f1f;
 }
 
