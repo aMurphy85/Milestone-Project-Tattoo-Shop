@@ -163,7 +163,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
          verify that you navigate to the "Contact Us" page of the site.
     5. From the "Contact Us" page click on the "Home" page link,
          verify that you navigate back to the "Home" page of the site.
-    6. From the "Gallery" page click on the "Conatact Us" page link,
+    6. From the "Gallery" page click on the "Contact Us" page link,
          verify that you navigate to the "Contact Us" page of the site.
     7. From the "Contact Us" page click on the "Gallery" page link,
          verify that you navigate to the "Gallery" page of the site.
@@ -252,6 +252,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+        - Repeat steps from *desktop navbar* testing above,
+            verify that all the links work.
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -284,6 +286,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+        - Repeat steps from *desktop navbar* testing above,
+            verify that all the links work.
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -306,6 +310,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+        - Repeat steps from *desktop navbar* testing above,
+            verify that all the links work.
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -339,6 +345,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+        - Repeat steps from *desktop navbar* testing above,
+            verify that all the links work.
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -372,6 +380,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. __Navbar toggler icon__
     1. Check that when on a smaller device the navbar links change to a burger icon drop-down menu.
+        - Repeat steps from *desktop navbar* testing above,
+            verify that all the links work.
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -455,30 +465,29 @@ simple form the user can fill out and send off to the shop to get a price guide 
     * [bootstrap Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
     * [stack overflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color)
 
-4. __Images (recent work & gallery),__
- - 
-
-### __Unsolved bugs__
-
-1. __Contact form email input,__
-    - While testing the contact form I noticed that I would get a input required message if no email address was entered, but 
-    do not get an error message if the email has been entered incorrectly (i.e. murv121@hotmial.co.uk) didn't pick up that the "a" and 
-    the "i" were the wrong way round.
-    - I have tried to find the solution to this on bootstrap and google but unable to find one that worked.
-
-2. __Navbar dropdown menu,__
-    - Once I had solved the burger icon on smaller devices issue I noticed that when clicked on I didn't have a dropdown menu to
-    select my nav link.
-    - I have been using bootstrap to find the correct class inputs to solve this but haven't found the right one thats works.
-
-3. __Colour scheme of website,__
+4. __Colour scheme of website,__
     - I intended on using the colours in the shop logo but after a couple reviews I was informed that it affected the UX.
     - To solve this I decided to use one colour throughout the website and use a bit of the red to breakup sections of the site.
 
-4. __Footer,__
+5. __Footer,__
     - Information overload in the footer with the opening times and contact info.
     - As this information was going to be repeated on the *Contact Us* page I decided to only put the social links, making the UX 
     more pleasing.
+
+### __Unsolved bugs__
+
+1. __Contact form email and phone input,__
+    - While testing the contact form I noticed that I would get a input required message if no email address was entered, but 
+    do not get an error message if the email has been entered incorrectly (i.e. murv121@hotmial.co.uk) didn't pick up that the "a" and 
+    the "i" were the wrong way round. This is the same for a phone number, any numbers can be added and be accepted.
+    - I have tried to find the solution to this on bootstrap and google but unable to find one that worked.
+
+2. __Contact form successful pop-up message,__
+    - After filling in all the relevant required fields to complete the form and clicked on the *Send* button, I wanted a pop-up
+    message saying "Thank You! & Your details have been successfully sent.".
+        - I tried to use bootstraps *alerts* inputs but all I got was a seperate section below the button saying "thank You!".
+        - Also tried to input a modal which did work once you had clicked on the *Send* button but was unable to close the modal
+        down using the close buttons.
 
 ## __Deployment__
 
