@@ -1,27 +1,27 @@
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&family=Swanky+and+Moo+Moo&display=swap');
 
 body {
-    font-family: 'Barlow Condensed', sans-serif;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
     background-color: #faf9f9;
     color: #3b3b3b;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;    
 }
 
 /*-------------------------------------------------------- Navbar header */
 
 .nav {
-    min-height: 75px;
     background-color: #f2f2f2;
-    padding-top: 0;
-    padding-bottom: 0;
+    min-height: 75px;
+    padding-bottom: 0;    
+    padding-top: 0;    
 }
 
 .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
     border-bottom: 1px solid #991f1f;
+    padding-bottom: 0;
+    padding-top: 0;        
 }
 
 .navbar-brand {
@@ -41,8 +41,8 @@ button {
 }
 
 #sub-title {
-    letter-spacing: 2px;
     color: #991f1f;
+    letter-spacing: 2px;    
     margin: 0;
 }
 
@@ -56,60 +56,61 @@ button {
 }
 
 .navbar-nav a:hover {
-    text-decoration: none;
     border-bottom: 2px solid #991f1f;
+    text-decoration: none;    
 }
 /*-------------------------------------------------------- Hero image */
 
 #hero-image {
-    height: 800px;
-    width: 100%;
-    margin: 0;
     background: url("../images/main-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid #991f1f;
+    margin: 0;
+    height: 800px;
+    width: 100%;    
 }
 
 #gallery-hero-image {
-    height: 800px;
-    width: 100%;
-    margin: 0;
     background: url("../images/gallery-hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid #991f1f;
+    margin: 0;
+    height: 800px;
+    width: 100%;
 }
 
 #contact-hero-image {
-    height: 800px;
-    width: 100%;
-    margin: 0;
     background: url("../images/shop-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1px solid #991f1f;
+    margin: 0;
+    height: 800px;
+    width: 100%;
 }
 
 /*-------------------------------------------------------- About Us */
 
 .about-us-heading {
-    text-align: center;
+    border-bottom: 1px solid #991f1f;   
     margin: 0;
     padding: 15px;
-    border-bottom: 1px solid #991f1f;
+    text-align: center;
+    
 }
 
-.about-us-section {
-    text-align: center;
+.about-us-section {    
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
 } 
 
 .shop-logo {
@@ -117,18 +118,18 @@ button {
 }
 
 .shop-logo img {
-    width: 300px;
-    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 320px;
+    width: 320px;        
     padding-top: 10px;
     vertical-align: middle;
 }
 
 .about-us {
-    text-align: center;
     padding: 0;
+    text-align: center;    
 }
 
 .about-us ul {
@@ -137,34 +138,35 @@ button {
 }
 
 .about-us p {
-    padding-top: 5px;
     font-size: 20px;
+    padding-top: 5px;    
 }
 
 .about-us li {
-    padding: 5px;
     font-size: 18px;
     letter-spacing: 2px;
+    padding: 5px;    
 }
 
 /*-------------------------------------------------------- Recent work */
 
-.recent-work {
-    text-align: center;
+.recent-work {    
     padding: 30px;
+    text-align: center;
 }
+
 .d-inline img {
-    padding: 3px;
-    width: 300px;
     height: 300px;
+    width: 300px;    
+    padding: 3px;
 }
 
 /*-------------------------------------------------------- Testemonials */
 
-.comments {
-    text-align: center;
+.comments {    
     margin-block-start: 0;
     padding: 20px;
+    text-align: center;
 }
 
 .comments i {
@@ -175,19 +177,18 @@ button {
 
 footer {
     background-color: #f2f2f2;
-    height: 75px;
-    margin: 0;
     border-top: 1px solid #991f1f;
+    height: 75px;
+    margin: 0;    
 }
 
-.socials {
-    text-align: center;
+.socials {    
     padding: 5px;
+    text-align: center;
 }
 
 .socials p {
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .socials ul {
@@ -212,50 +213,40 @@ footer {
 /*-------------------------------------------------------- Gallery */
 
 .gallery-heading h1 {
+    color: black;
     font-family: 'Swanky and Moo Moo', sans-serif;
     font-size: 400%;
     letter-spacing: 2px;
-    text-align: center;
     margin: 0;
     padding: 15px;
-    color: black;
+    text-align: center;    
 }
 
 .heading h1 {
-    text-align: center;
+    border-bottom: 1px solid #991f1f;
+    border-top: 1px solid #991f1f;    
     margin: 0;
     padding: 15px;
-    border-top: 1px solid #991f1f;
-    border-bottom: 1px solid #991f1f;
+    text-align: center;    
 }
 
-.black-grey-work {
-    text-align: center;
+.work-images {
     padding: 30px;
-}
-
-.neo-trad-work {
-    text-align: center;
-    padding: 30px;
-}
-
-.colour-work {
-    text-align: center;
-    padding: 30px;
+    text-align: center;    
 }
 
 /*-------------------------------------------------------- Contact Info */
 
 .contact-us-heading {
     letter-spacing: 2px;
-    text-align: center;
     padding: 15px;
+    text-align: center;    
 }
 
-.contact-us {    
-    text-align: center;
+.contact-us {   
+    border-bottom: 1px solid #991f1f;     
     padding: 10px;    
-    border-bottom: 1px solid #991f1f;  
+    text-align: center;  
 }
 
 .contact-us p {
@@ -269,9 +260,9 @@ footer {
 }
 
 .opening-times {
-    text-align: center;
-    padding: 10px;
     border-bottom: 1px solid #991f1f;
+    padding: 10px;
+    text-align: center;
 }
 
 .opening-times ul {
@@ -287,10 +278,10 @@ footer {
 /*-------------------------------------------------------- Form */
 
 .form-info {
-    text-align: center;
-    padding-top: 15px;
+    border-bottom: 1px solid #991f1f;
     padding-bottom: 15px;
-    border-bottom: 1px solid #991f1f; 
+    padding-top: 15px;
+    text-align: center; 
 }
 
 #form {
@@ -299,9 +290,9 @@ footer {
 
 .form {
     background-color: #DCDCDC;
-    text-align: center;
-    padding-top: 15px;
     padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
 }
 
 .label {
@@ -314,8 +305,8 @@ footer {
 }
 
 #button {
-    padding-top: 15px;
     padding-bottom: 15px;
+    padding-top: 15px;    
 }
 
 /*-------------------------------------------------------- Media Queries */
