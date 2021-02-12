@@ -17,11 +17,11 @@
     <header>            
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <h2 id="title">Metamorphosis</h2> 
-                        <h5 id="sub-title">Tattoo Studio | Tiverton</h5>
-                    </a>
-
+                    <div class="navbar-brand">                    
+                        <h2 id="title">Metamorphosis</h2>
+                        <h5 id="sub-title">Tattoo Studio | Tiverton</h5>                    
+                    </div>
+                <!-- Navbar burger icon doesn't dropdown with a list of options when clicked on -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
                         <div class="navbar-nav">
                             <a class="nav-link" href="index.html">Home</a>
                             <a class="nav-link" href="gallery.html">Gallery</a>
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="contact-us.html">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -114,16 +114,16 @@
                 <div class="row justify-content-center" id="form">
                     <div class="col-sm-12 col-md-8 col-lg-8 justify-content-center">                        
                         
-                        <form class="form" id="myForm" action="contact-us.html" method="#">
+                        <form class="form" id="myForm" action="contact-us.html" method="POST">
                             
                                 <label for="fname" class="label"><strong>First Name *</strong></label>
                             <br>
-                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label justify-content-center" id="fname" type="text" name="fname" required>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label justify-content-center" id="fname" type="text" name="fname" placeholder="Joe" required>
                                 
                             <br>                            
                                 <label  for="lname" class="label"><strong>Last Name *</strong></label>
                             <br>
-                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lname" type="text" name="lname" required>
+                                <input class="col-sm-12 col-md-12 col-lg-8 col-form-label" id="lname" type="text" name="lname" placeholder="Bloggs" required>
                                 
                             <br>
                                 
@@ -135,7 +135,7 @@
 
                                 <label for="tel" class="label"><strong>Phone Number</strong></label>
                             <br>
-                                <input type="tel" name="phone" id="tel" class="col-sm-12 col-md-12 col-lg-8 col-form-label" required>
+                                <input type="tel" name="phone" id="tel" class="col-sm-12 col-md-12 col-lg-8 col-form-label" placeholder="+44 7712 345678" required>
 
                             <br>
 

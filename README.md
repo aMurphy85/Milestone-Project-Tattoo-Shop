@@ -7,6 +7,15 @@ too.
 
 ## __UX__
 
+__Business goals__
+ - Build a website targetting people who are thinking of getting a new or additional tattoos.
+ - Build an attractive webpage that provides excellent information so that people will feel confident on using this studio
+ and not another one.
+ - Make it easy to contact the studio.
+ - Build a website that users want to use again.
+ - Create a bigger following by re-directing users to the studio's social media sites.
+ - Attract more customers through the webpage.
+
 ### __User Stories__
 
 - As a new user to the website, I want to be able to navigate through the site easily and find what I need efficently.
@@ -32,9 +41,9 @@ too.
 
 ### __Wireframes__
 
-- [Image of wireframe home page]()
-- [Image of wireframe gallery page]()
-- [Image of wireframe contact us page]()
+![Image of wireframe home page](./images/wireframehomepage.jpg)
+![Image of wireframe gallery page]()
+![Image of wireframe contact us page]()
 
 ## __Features__
 
@@ -167,10 +176,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
          verify that you navigate to the "Contact Us" page of the site.
     7. From the "Contact Us" page click on the "Gallery" page link,
          verify that you navigate to the "Gallery" page of the site.
-    8. From the "Home" page click on the *Metamorphosis Tattoo Studio Tiverton* branding,
-         verify that you navigate back to the top of the home page.
-    9. From both the "Gallery" page and the "Contact Us" page click on the *Metamorphosis Tattoo Studio Tiverton* branding,
-         verify that navigate back to the home page.
+
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -432,6 +438,31 @@ simple form the user can fill out and send off to the shop to get a price guide 
          verify the icons fade in to a deep red colour from there static grey colour.
     2. Click on the Font Awesome icons
          verify you navigate to the respective social media platforms assosiated with the *Metamorphosis Tattoo Studio Tiverton* pages.
+
+## __Lighthouse results__
+1. __Desktop__
+    
+    Page      | Performance | Accessibility | Best Practices | section |
+    --------- | ----------- | ------------- | -------------- | ------- |
+    Home page | 97 | 98 | 93 | 90
+    Gallery page | 94 | 98 | 86 | 90
+    Contact us page | 99 | 87 | 93 | 89
+
+2. __Mobile__
+
+    Page      | Performance | Accessibility | Best Practices | section |
+    --------- | ----------- | ------------- | -------------- | ------- |
+    Home page | 80 | 98 | 93 | 92
+    Gallery page | 87 | 98 | 86 | 92
+    Contact us page | 83 | 87 | 93 | 91
+
+## __HTML validator results__
+1. Home page
+![Validator results for home page]()
+2. Gallery page
+![Validator results for gallery page]()
+3. Contact us page
+![Validator results for contact us page]()
 
 ## __Bugs__
 
