@@ -7,14 +7,28 @@ too.
 
 ## __UX__
 
-__Business goals__
+__Business goals,__
  - Build a website targetting people who are thinking of getting a new or additional tattoos.
  - Build an attractive webpage that provides excellent information so that people will feel confident on using this studio
- and not another one.
- - Make it easy to contact the studio.
+ and not another one. 
  - Build a website that users want to use again.
  - Create a bigger following by re-directing users to the studio's social media sites.
  - Attract more customers through the webpage.
+
+__Ideal client,__
+ - Would be english speaking.
+ - Lives local to the area where the studio is located.
+ - Interested in tattoos / art.
+ - Has desposable income to spend on getting a tattoo.
+
+__Users on this website are looking for,__
+ - A tattoo artist to create the artwork that they want to get done.
+ - A easy way to contact the studio.
+
+__This project is ideal for them because,__
+ - The webpage has a  simple layout thats easy to navigate, not overloaded with irrelevant information that overwhelms them providing
+ good UX that most tattoo shop websites don't have.
+ - It guides them to the users goal which is to contact the studio for pricing and bookings.
 
 ### __User Stories__
 
@@ -97,6 +111,8 @@ simple form the user can fill out and send off to the shop to get a price guide 
     for more accurate pricing and to be worked on to make them more unique.
 
 9. A search input so you can find what you are looking for on the site wuicker like certain style of tattoos or contact form.
+
+10. Add pages full of information and galleries for the piercing side the studio also provides.
 
 ## __Technologies Used__
 
