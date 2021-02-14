@@ -109,21 +109,26 @@ button {
     text-align: center;
 } 
 
-.shop-logo img {
+#shop-logo {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 320px;
     width: 320px;        
-    padding-top: 15px;    
+    padding: 5px;
 }
 
 .about-us {
     text-align: center;    
 }
 
+.about-us h3 {
+    letter-spacing: 2px;
+}
+
 .about-us ul {
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 
