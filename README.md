@@ -478,7 +478,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
 2. Gallery page
 ![Validator results for gallery page]()
 3. Contact us page
-![Validator results for contact us page]()
+[Validator results for contact us page](./pdf/contact-us.html validator results.pdf)
 
 ## __Bugs__
 
