@@ -54,10 +54,12 @@ __This project is ideal for them because,__
   or on my new art work I would like next.
 
 ### __Wireframes__
-
-![Image of wireframe home page](./images/wireframehomepage.jpg)
-![Image of wireframe gallery page]()
-![Image of wireframe contact us page]()
+1. Home page
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/wireframe%20home%20page.pdf
+2. Gallery page
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/wireframe%20gallery%20page.pdf
+3. Contact us page
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/wireframe%20contact%20us%20page.pdf
 
 ## __Features__
 
@@ -474,11 +476,15 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 ## __HTML validator results__
 1. Home page
-![Validator results for home page]()
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/index.html%20validator%20results.pdf
 2. Gallery page
-![Validator results for gallery page]()
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/gallery.html%20validator%20results.pdf
 3. Contact us page
-[Validator results for contact us page](./pdf/contact-us.html validator results.pdf)
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/contact-us.html%20validator%20results.pdf
+
+## __CSS validator results__
+1. style.css
+https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pdf/CSS%20validator%20results.pdf
 
 ## __Bugs__
 
