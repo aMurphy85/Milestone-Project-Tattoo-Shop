@@ -1,5 +1,3 @@
-![Shop Logo](./images/favicon.ico)
-
 # __METAMORPHOSIS TATTOO STUDIO OF TIVERTON__ 
 
 - A local Tattoo shop wanted to upgrade their current webpage to increase client base, by providing better visual 
@@ -552,6 +550,32 @@ https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pd
 
 ## __Deployment__
 
+- This webpage was developed using GitPod, commited and pushed to GitHub.
+
+- To deploy this webpage from it's GitHub repsoitories, the following steps were carried out;
+    1. Open GitHub webpage and log in.
+    2. From the drop down menu in the top right of the page, click on *Your repositories*.
+    3. From the list of repsoitories click on *Milestone-Project-Tattoo-Shop*.
+    4. From the options above select *Settings*.
+    5. Once in the settings scroll down to find the *GitHub pages* section.
+    6. In the GitHub pages section, click on the *Source* dropdown menu where it says __None__ and select __Master__.
+    7. After selecting __Master__, click on *Save*.
+    8. This should refresh the page and now the webpage is now deployed.
+    9. In the *GitHub pages* section the link to the webpage should now be visible.
+
+- To run this site locally.
+- To clone this repository from GitHub you'll need to,
+    1. Create a new GitHub account.
+    2. Then you'll need to install GitPod using the *chrome browser*.
+    3. Next you'll need to log in to GitPod.
+    4. Click on this https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop
+    5. Above the list of files click on the *Code* dropdown menu.
+    6. From the dropdown menu click on the *copy URL* button, to clone the repository using __HTTPS__.
+    7. Open Git Bash.
+    8. Change the current working directory to the location you want to clone the directory.
+    9. Type git clone, and then paste the URL
+    ~~git clone https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop~~
+    10. Press enter and this will create a local clone.
 
 # __Credits__
 
