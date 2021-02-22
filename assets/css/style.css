@@ -109,15 +109,6 @@ button {
     text-align: center;
 } 
 
-#shop-logo {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 320px;
-    width: 320px;        
-    padding: 5px;
-}
-
 .about-us {
     text-align: center;    
 }
@@ -258,6 +249,7 @@ footer {
 }
 
 .opening-times ul {
+    margin: 0;
     padding: 0;
 }
 
@@ -276,14 +268,9 @@ footer {
     text-align: center; 
 }
 
-#form {
-    padding: 15px;
-}
-
 .form {
     background-color: #DCDCDC;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding: 15px;
     text-align: center;
 }
 
