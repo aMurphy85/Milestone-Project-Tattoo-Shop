@@ -1,9 +1,20 @@
-# __METAMORPHOSIS TATTOO STUDIO OF TIVERTON__
+![Shop Logo](./images/favicon.ico)
 
-A local Tattoo shop wanted to upgrade their current webpage to increase client base, by providing better visual 
-representationthat not only showcases the art work the shop has done but to also capture your attention as soon
+# __METAMORPHOSIS TATTOO STUDIO OF TIVERTON__ 
+
+- A local Tattoo shop wanted to upgrade their current webpage to increase client base, by providing better visual 
+representation that not only showcases the art work the shop has done but to also capture your attention as soon
 as you open the webpage, making the client want to re-visit the site and tell others to visit it for there tattoos
 too.
+
+- I believe this website is a perfect start as none of the other local tattoo studio's in the area have an official webpage, only
+their social media platforms to showcase the work and contact methods. This website will give them a much better chance of getting
+noticed through google searches, making them easier to be found on any device that can be used online, and potentially upping the 
+client base they already have.
+
+- This webpage is something I was particularly interested in getting involved with as I am very interested in tattoo's myself. I am 
+also good friends with the owner and have been a customer in the studio myself. I have always had good experiences with them and wanted 
+to help them with setting them up a more professional looking webpage that coincides with the current growth of the business.
 
 ## __UX__
 
@@ -181,7 +192,7 @@ simple form the user can fill out and send off to the shop to get a price guide 
 
 1. __Navbar links__
     1. Hover mouse over the navigation links,
-        verify that the text decoration of a *red underline* appears.
+        verify that the text decoration of a *red underline* appears for all 3 links.
     2. From the "Home" page click on the "Gallery" page link,
          verify that you navigate to the "Gallery" page of the site.
     3. From the "Gallery" page click on the "Home" page link,
@@ -194,7 +205,6 @@ simple form the user can fill out and send off to the shop to get a price guide 
          verify that you navigate to the "Contact Us" page of the site.
     7. From the "Contact Us" page click on the "Gallery" page link,
          verify that you navigate to the "Gallery" page of the site.
-
 
 2. __Navbar fixed top__
     1. Scroll down the page,
@@ -261,8 +271,10 @@ simple form the user can fill out and send off to the shop to get a price guide 
     1. Go to "Contact Us" page.
     2. Try to submit an empty form
         verify that an error message for required fields appears.
-    3. Submit complete form
-        verify the form was successfully sent.
+    3. Try to submit a name with a number of symbol,
+        verify that the error message for incorrect format appears.
+    4. Submit complete form
+        verify the page resets back to the *contact us* page.
 
 6. __Footer socials icon links__
     1. Hover over "Instagram" and "Facebook" Font Awesome icons with mouse cursor
@@ -463,16 +475,16 @@ simple form the user can fill out and send off to the shop to get a price guide 
     Page      | Performance | Accessibility | Best Practices | section |
     --------- | ----------- | ------------- | -------------- | ------- |
     Home page | 97 | 98 | 93 | 90
-    Gallery page | 94 | 98 | 86 | 90
+    Gallery page | 90 | 98 | 86 | 90
     Contact us page | 99 | 87 | 93 | 89
 
 2. __Mobile__
 
     Page      | Performance | Accessibility | Best Practices | section |
     --------- | ----------- | ------------- | -------------- | ------- |
-    Home page | 80 | 98 | 93 | 92
-    Gallery page | 87 | 98 | 86 | 92
-    Contact us page | 83 | 87 | 93 | 91
+    Home page | 82 | 98 | 86 | 92
+    Gallery page | 86 | 98 | 86 | 92
+    Contact us page | 81 | 87 | 93 | 91
 
 ## __HTML validator results__
 1. Home page
@@ -488,7 +500,7 @@ https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pd
 
 ## __Bugs__
 
-### __Solved bugs__
+### __Issues I incountered that required attention,__
 
 1. __Hero image,__
     - My original image I was planning on using wouldn't stretch the full width of the container width.
@@ -527,20 +539,16 @@ https://github.com/aMurphy85/Milestone-Project-Tattoo-Shop/blob/master/assets/pd
     - As this information was going to be repeated on the *Contact Us* page I decided to only put the social links, making the UX 
     more pleasing.
 
-### __Unsolved bugs__
+### __Issues to be resolved at a later date,__
 
-1. __Contact form email and phone input,__
-    - While testing the contact form I noticed that I would get a input required message if no email address was entered, but 
-    do not get an error message if the email has been entered incorrectly (i.e. murv121@hotmial.co.uk) didn't pick up that the "a" and 
-    the "i" were the wrong way round. This is the same for a phone number, any numbers can be added and be accepted.
+1. __Contact form phone input,__
+    - While testing the contact form I noticed that I would get a input required, but for a phone number, any numbers can be added and 
+    be accepted.
     - I have tried to find the solution to this on bootstrap and google but unable to find one that worked.
 
 2. __Contact form successful pop-up message,__
-    - After filling in all the relevant required fields to complete the form and clicked on the *Send* button, I wanted a pop-up
-    message saying "Thank You! & Your details have been successfully sent.".
-        - I tried to use bootstraps *alerts* inputs but all I got was a seperate section below the button saying "thank You!".
-        - Also tried to input a modal which did work once you had clicked on the *Send* button but was unable to close the modal
-        down using the close buttons.
+    - I would like a *Thank you!* message to appear when a potential customer has entered all the details required in the form, to let 
+    them know that their details have been forwarded on ok.
 
 ## __Deployment__
 
