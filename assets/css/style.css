@@ -292,13 +292,10 @@ footer {
     padding-top: 15px;
 }
 
-.form button {
-    background-color: #991f1f;
-}
-
 #button {
-    padding-bottom: 15px;
-    padding-top: 15px;    
+    background-color: #991f1f;
+    padding: 7px;   
+    text-transform: uppercase; 
 }
 
 /*-------------------------------------------------------- Media Queries */
