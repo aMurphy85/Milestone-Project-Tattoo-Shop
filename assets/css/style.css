@@ -268,6 +268,10 @@ footer {
     text-align: center; 
 }
 
+#form {
+    padding: 15px;
+}
+
 .form {
     background-color: #DCDCDC;
     padding: 15px;
